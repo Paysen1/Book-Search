@@ -1,5 +1,5 @@
 import { useMutation } from '@apollo/client';
-import { SAVE_BOOK } from '../utils/queries';
+import { SAVE_BOOK } from '../utils/mutations';
 import { useState, useEffect } from 'react';
 import {
   Container,

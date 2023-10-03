@@ -1,6 +1,6 @@
 import { useQuery, useMutation } from '@apollo/client';
 import { GET_ME } from '../utils/queries';
-import { REMOVE_BOOK } from '../utils/queries';
+import { REMOVE_BOOK } from '../utils/mutations';
 import {
   Container,
   Card,
@@ -9,7 +9,6 @@ import {
   Col
 } from 'react-bootstrap';
 
-import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 
 
